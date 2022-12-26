@@ -1,24 +1,41 @@
 body {
-    font-family: Tahoma,  Verdana, sans-serif ;
+    font-family: Tahoma, Verdana, sans-serif;
+
 }
 
 .logo img {
-  width: 230px;
-  height: 100px;
-  display: inline;
+    width: 230px;
+    height: 100px;
+    display: inline;
 }
+
 .navbar ul {
     list-style: none;
 
 }
+
 .navbar {
     font-weight: 70px;
     font-size: larger;
 }
-.navbar  {
-    padding-left: 700px;
- 
- border: 2px solid black;
- border-top-left-radius: 100px;
 
+.navbar {
+    padding-left: 700px;
+
+    border: 2px solid black;
+    border-top-left-radius: 100px;
+    background-color: black;
+    
+    
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    color: cornflowerblue;
+
+}
+.navbar ul li a{
+    transition: 0.6s;
 }
